@@ -1,0 +1,32 @@
+.ldc_blend{
+    padding-inline: 4rem;
+    &_nav{
+        display: flex;
+        justify-content: space-between;
+        a {
+            text-decoration: none;
+            color: black;
+
+          }
+          h1{
+            font-size: 1.5rem;
+        }
+    }
+    &_inner{
+        &_product{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            &_inner{
+                &_details{
+                    .select{
+                        font-size: 0.9rem;
+                    }
+                    select{
+                        padding-inline: 2rem;
+                        padding-block: 0.5rem;
+                    }
+                }
+            }
+        }
+    }
+}

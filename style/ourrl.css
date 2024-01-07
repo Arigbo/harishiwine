@@ -1,0 +1,16 @@
+.ldc_ourrl h1 {
+  text-align: center;
+}
+.ldc_ourrl_inner {
+  padding-block: 2rem;
+  padding-inline: 20%;
+  text-align: center;
+}
+.ldc_ourrl_inner h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgb(50, 44, 37);
+}
+.ldc_ourrl_inner p {
+  line-height: 2rem;
+}/*# sourceMappingURL=ourrl.css.map */

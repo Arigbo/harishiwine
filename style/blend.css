@@ -1,0 +1,25 @@
+.ldc_blend {
+  padding-inline: 4rem;
+}
+.ldc_blend_nav {
+  display: flex;
+  justify-content: space-between;
+}
+.ldc_blend_nav a {
+  text-decoration: none;
+  color: black;
+}
+.ldc_blend_nav h1 {
+  font-size: 1.5rem;
+}
+.ldc_blend_inner_product {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.ldc_blend_inner_product_inner_details .select {
+  font-size: 0.9rem;
+}
+.ldc_blend_inner_product_inner_details select {
+  padding-inline: 2rem;
+  padding-block: 0.5rem;
+}/*# sourceMappingURL=blend.css.map */

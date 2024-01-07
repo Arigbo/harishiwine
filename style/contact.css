@@ -1,0 +1,55 @@
+.ldc_contact h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgb(50, 44, 37);
+}
+.ldc_contact_inner {
+  padding-block: 2rem;
+  padding-inline: 20%;
+  text-align: left;
+}
+@media screen and (min-width: 992px) {
+  .ldc_contact_inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    align-items: baseline;
+  }
+}
+.ldc_contact_inner_location_inner {
+  margin-block-start: 1rem;
+  text-align: center;
+}
+.ldc_contact_inner_location_address h1 {
+  text-align: left;
+  font-size: 0.5rem;
+  font-weight: 600;
+  color: rgb(50, 44, 37);
+}
+.ldc_contact_inner_location_image {
+  margin-block-start: 1rem;
+  width: 100%;
+}
+@media screen and (min-width: 992px) {
+  .ldc_contact_inner_location_image {
+    width: 40%;
+  }
+}
+.ldc_contact_inner_inputs {
+  margin-block-start: 1rem;
+}
+.ldc_contact_inner_inputs input {
+  margin-block-end: 2rem;
+  padding-inline: 1rem;
+  padding-block: 1rem;
+  width: 100%;
+}
+.ldc_contact_inner p {
+  line-height: 2rem;
+}
+.ldc_contact_inner h1 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgb(50, 44, 37);
+}/*# sourceMappingURL=contact.css.map */

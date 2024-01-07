@@ -1,0 +1,37 @@
+.ldc {
+  button{
+    display: none;
+  }
+    &_hero {
+      background-image: url("/images/bgi.jpg");
+      padding-block: 10rem;
+      background-position: center;
+      background-size: cover;
+      color: rgb(158, 141, 51);
+      h1 {
+          color: rgb(158, 141, 51);
+      }
+  }
+
+    &_inner {
+        padding-block: 2rem;
+        padding-inline: 4rem;
+        text-align: center;
+
+        p {
+            line-height: 2rem;
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: rgb(50, 44, 37);
+        }
+        &_values{
+          text-align: left;
+          span{
+            font-weight: 600;
+          }
+        }
+    }
+}

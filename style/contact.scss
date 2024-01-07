@@ -1,0 +1,71 @@
+.ldc {
+    &_contact {
+        h1 {
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: rgb(50, 44, 37);
+        }
+
+        &_inner {
+            padding-block: 2rem;
+            padding-inline: 20%;
+            text-align: left;
+
+            @media screen and (min-width: 992px) {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 1rem;
+                align-items: baseline;
+            }
+
+            &_location {
+                &_inner {
+                    margin-block-start: 1rem;
+                    text-align: center;
+                }
+
+                &_address {
+
+                    h1 {
+                        text-align: left;
+                        font-size: 0.5rem;
+                        font-weight: 600;
+                        color: rgb(50, 44, 37);
+                    }
+
+                }
+
+                &_image {
+                    margin-block-start: 1rem;
+                    width: 100%;
+
+                    @media screen and (min-width: 992px) {
+                        width: 40%;
+                    }
+                }
+            }
+
+        &_inputs{
+            margin-block-start: 1rem;
+            input {
+                margin-block-end: 2rem;
+                padding-inline: 1rem;
+                padding-block: 1rem;
+                width: 100%;
+
+            }
+        }
+
+            p {
+                line-height: 2rem;
+            }
+
+            h1 {
+                font-size: 1rem;
+                font-weight: 600;
+                color: rgb(50, 44, 37);
+            }
+        }
+    }
+}

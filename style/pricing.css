@@ -1,0 +1,62 @@
+.ldc_pricing button {
+  display: none;
+}
+.ldc_pricing_hero {
+  background-image: url("/images/bgi.jpg");
+  padding-block: 10rem;
+  background-position: center;
+  background-size: cover;
+  color: rgb(158, 141, 51);
+}
+.ldc_pricing_hero h1 {
+  color: rgb(158, 141, 51);
+}
+.ldc_pricing h1 {
+  color: rgb(158, 141, 51);
+  font-size: 2rem;
+  font-weight: 600;
+}
+.ldc_pricing_inner {
+  padding-block: 1rem;
+  padding-inline: 4rem;
+  text-align: center;
+}
+.ldc_pricing_inner_header h1 {
+  color: rgb(158, 141, 51);
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: left;
+}
+.ldc_pricing_inner h1 {
+  font-size: 1rem;
+}
+.ldc_pricing_inner p {
+  line-height: 2rem;
+}
+.ldc_pricing_inner_product {
+  display: grid;
+  gap: 5rem;
+}
+@media screen and (min-width: 992px) {
+  .ldc_pricing_inner_product {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+.ldc_pricing_inner_product_product1 {
+  background-color: whitesmoke;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: 2rem;
+}
+.ldc_pricing_inner_product_product1_price h1 {
+  font-size: 0.8rem;
+}
+.ldc_pricing_inner_product_product1_image {
+  width: 5rem;
+  padding-block-end: 1rem;
+}
+.ldc_pricing_inner_product_product1_image img {
+  border-radius: 20px;
+}/*# sourceMappingURL=pricing.css.map */
