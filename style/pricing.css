@@ -33,30 +33,40 @@
 .ldc_pricing_inner p {
   line-height: 2rem;
 }
-.ldc_pricing_inner_product {
+.ldc_pricing_inner_product .products {
   display: grid;
-  gap: 5rem;
+  gap: 4rem;
 }
 @media screen and (min-width: 992px) {
-  .ldc_pricing_inner_product {
-    grid-template-columns: 1fr 1fr 1fr;
+  .ldc_pricing_inner_product .products {
+    grid-template-columns: 1fr 1fr;
   }
 }
-.ldc_pricing_inner_product_product1 {
+.ldc_pricing_inner_product .products_inner_inner {
+  width: 100%;
+}
+.ldc_pricing_inner_product .products .product {
+  gap: 1rem;
   background-color: whitesmoke;
   border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding-block: 2rem;
+  padding-inline: 1rem;
+  margin-block-end: 4rem;
 }
-.ldc_pricing_inner_product_product1_price h1 {
-  font-size: 0.8rem;
+.ldc_pricing_inner_product .products .product .name {
+  font-size: 1rem;
 }
-.ldc_pricing_inner_product_product1_image {
-  width: 5rem;
+.ldc_pricing_inner_product .products .product .price {
+  font-size: 1rem;
+}
+.ldc_pricing_inner_product .products .product .image {
   padding-block-end: 1rem;
+  width: 5rem;
 }
-.ldc_pricing_inner_product_product1_image img {
+.ldc_pricing_inner_product .products .product .image img {
+  width: 100%;
   border-radius: 20px;
+}
+.ldc_pricing_inner_product .products .product .avail_bottle {
+  font-size: 1rem;
 }/*# sourceMappingURL=pricing.css.map */

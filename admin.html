@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="/style/index.css">
+    <link rel="stylesheet" href="/style/fontawesome-free-6.4.2-web/fontawesome-free-6.4.2-web/css/all.css">
+    <script src="/script.js"></script>
+</head>
+
+<body>
+    <div class="ldc">
+        <nav class="ldc_nav">
+            <div class="ldc_nav_menu">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-x"></i>
+            </div>
+            <div class="ldc_nav_inner">
+                <div class="ldc_nav_inner_inner">
+                    <ul>
+                        <a href="/index.html">
+                            <li class="home">Home</li>
+                        </a>
+                        <a href="/pages/ourrole.html">
+                            <li class="ourrole">Our roles</li>
+                        </a>
+                        <a href="/pages/pricing/index.html">
+                            <li class="pricing">pricing</li>
+                        </a>
+                        <a href="/pages/contact.html">
+                            <li class="contact">Contact us</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="ldc_nav_medi">
+                <div class="ldc_nav_medi_logo">
+                    <div class="ldc_nav_medi_logo_top">
+                        <i class="fas fa-house"></i>
+                    </div>
+                    <div class="ldc_nav_medi_logo_bottom">
+                        <h1>harish</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="ldc_nav_right_inner">
+                <div class="ldc_nav_right_inner_personal">
+                    <a href="/admin.html"> <i class="fas fa-person"></i></a>
+                </div>
+
+                <div class="ldc_nav_right_inner_booked">
+                    <h1 class="howmany"></h1>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-x x"></i>
+                </div>
+            </div>
+            <div class="ldc_nav_cart_preview">
+                <div class="ldc_nav_cart_preview_product">
+                    <div class="ldc_nav_cart_preview_product_product1">
+                        <div class="ldc_nav_cart_preview_product_product1_image">
+
+                            <a href="/pages/pricing/blend.html">
+                                <img src="/images/wine1.png" alt="">
+                            </a>
+                        </div>
+
+                        <div class="ldc_nav_cart_preview_product_product1_name">
+                            <h1>DELICATO</h1>
+                        </div>
+                        <div class="ldc_nav_cart_preview_product_product1_price">
+                            <h1>28,00$</h1>
+                            <h1 class="bottlestaken1"></h1>
+                        </div>
+                        <div class="remove">
+                            <button class="remove">Remove</button>
+                        </div>
+
+                    </div>
+                    <div class="ldc_nav_cart_preview_product_product2">
+                        <div class="ldc_nav_cart_preview_product_product1_image">
+
+                            <a href="/pages/pricing/tesso.html">
+                                <img src="/images/wine1.png" alt="">
+                            </a>
+                        </div>
+                        <div class="ldc_nav_cart_preview_product_product1_name">
+                            <h1>Tesso</h1>
+                        </div>
+                        <div class="ldc_nav_cart_preview_product_product1_price">
+                            <h1>28,00$</h1>
+                            <h1 class="bottlestaken2"></h1>
+                        </div>
+                        <div class="remove">
+                            <button class="remove2">Remove</button>
+                        </div>
+                    </div>
+                    <a href="/pages/pricing/celebration_of life.html" class="ldc_nav_cart_preview_product_product3">
+                        <div class="ldc_nav_cart_preview_product_product1_image">
+                            <img src="/images/wine1.png" alt="">
+                        </div>
+                        <div class="ldc_nav_cart_preview_product_product1_name">
+                            <h1>DELICATO</h1>
+                        </div>
+                        <div class="ldc_nav_cart_preview_product_product1_price">
+                            <h1>28,00$</h1>
+                        </div>
+                    </a>
+                    <a href="/pages/pricing/celebration_of life.html" class="ldc_nav_cart_preview_product_product4">
+                        <div class="ldc_nav_cart_preview_product_product1_image">
+                            <img src="/images/wine1.png" alt="">
+                        </div>
+                        <div class="ldc_nav_cart_preview_product_product1_name">
+                            <h1>DELICATO</h1>
+                        </div>
+                        <div class="ldc_nav_cart_preview_product_product1_price">
+                            <h1>28,00$</h1>
+                        </div>
+                    </a>
+                    <a href="/pages/pricing/celebration_of life.html" class="ldc_nav_cart_preview_product_product5">
+                        <div class="ldc_nav_cart_preview_product_product1_image">
+                            <img src="/images/wine1.png" alt="">
+                        </div>
+                        <div class="ldc_nav_cart_preview_product_product1_name">
+                            <h1>DELICATO</h1>
+                        </div>
+                        <div class="ldc_nav_cart_preview_product_product1_price">
+                            <h1>28,00$</h1>
+                        </div>
+                    </a>
+                    <a href="/pages/pricing/celebration_of life.html" class="ldc_nav_cart_preview_product_product6">
+                        <div class="ldc_nav_cart_preview_product_product1_image">
+                            <img src="/images/wine1.png" alt="">
+                        </div>
+                        <div class="ldc_nav_cart_preview_product_product1_name">
+                            <h1>DELICATO</h1>
+                        </div>
+                        <div class="ldc_nav_cart_preview_product_product1_price">
+                            <h1>28,00$</h1>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </nav>
+        <div>
+<form action="" method="post" onsubmit="newDrink()">
+    <input type="text" placeholder="Drink" id="drink" >
+    <input type="number" placeholder="Amount" id="amount">
+    <input type="number" name="" id="bottles" placeholder="Bottles">
+</div>
+<input type="button" value="Submit" id="submit" onclick="newDrink()">
+</form>
+        </div>
+</body>
+
+</html>

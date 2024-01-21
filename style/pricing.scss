@@ -23,8 +23,6 @@
             font-weight: 600;
         }
 
-        h1 {}
-
         &_inner {
             padding-block: 1rem;
             padding-inline: 4rem;
@@ -48,35 +46,88 @@
             }
 
             &_product {
-                display: grid;
-                @media screen and (min-width: 992px) {
-                    grid-template-columns: 1fr 1fr 1fr;
-                }
+                // display: grid;
 
-                gap: 5rem;
+                // @media screen and (min-width: 992px) {
 
-                &_product1 {
-                    background-color: whitesmoke;
-                    border-radius: 20px;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    padding-block: 2rem;
+                // }
 
-                    &_price {
-                        h1 {
-                            font-size: 0.8rem;
+                // gap: 5rem;
+
+                // &_product1 {
+                //     background-color: whitesmoke;
+                //     border-radius: 20px;
+                //     display: flex;
+                //     flex-direction: column;
+                //     align-items: center;
+                //     padding-block: 2rem;
+
+                //     &_price {
+                //         h1 {
+                //             font-size: 0.8rem;
+                //         }
+                //     }
+
+                //     &_image {
+                //         width: 5rem;
+                //         padding-block-end: 1rem;
+
+                //         img {
+                //             border-radius: 20px;
+                //         }
+                //     }
+                // }
+                .products {
+                    display: grid;
+                    gap: 4rem;
+
+                    @media screen and (min-width: 992px) {
+
+                        grid-template-columns: 1fr 1fr;
+                    }
+
+                    &_inner {
+                        // display: flex;
+                        // align-items: center;
+
+                        // width: 100%;
+                        &_inner {
+                            width: 100%;
                         }
                     }
 
-                    &_image {
-                        width: 5rem;
-                        padding-block-end: 1rem;
-                        img {
-                            border-radius: 20px;
+                    .product {
+                        gap: 1rem;
+                        background-color: whitesmoke;
+                        border-radius: 20px;
+                        padding-block: 2rem;
+                        padding-inline: 1rem;
+                        margin-block-end: 4rem;
+
+                        .name {
+                            font-size: 1rem;
+                        }
+
+                        .price {
+                            font-size: 1rem;
+                        }
+
+                        .image {
+                            padding-block-end: 1rem;
+                            width: 5rem;
+
+                            img {
+                                width: 100%;
+                                border-radius: 20px;
+                            }
+                        }
+
+                        .avail_bottle {
+                            font-size: 1rem;
                         }
                     }
                 }
+
             }
         }
 

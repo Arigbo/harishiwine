@@ -121,11 +121,12 @@ body {
 
       &_cart_preview {
         background-color: rgb(236, 215, 122);
-        position: fixed;
+        position: absolute;
         z-index: 2;
         right: 0;
         padding-inline: 2rem;
         top: 0;
+        overflow: visible;
         display: none;
 
         &.show {
@@ -273,23 +274,22 @@ body {
 
       &_inner {
         height: 100vh;
-        width: 0;
-        transition: all 0.5s ease-in;
+        width: 0;    
         position: absolute;
         display: none;
         left: 0;
         bottom: 0;
         right: 100%;
         top: 0;
-
+        transition: all 0.5s ease-in;
         background-color: black;
 
 
         &.show {
-          transition: all 0.5s ease-in;
           width: 50%;
           right: 0;
           display: block;
+          transition: all 0.5s ease-in;
         }
 
         @media screen and (min-width:992px) {
